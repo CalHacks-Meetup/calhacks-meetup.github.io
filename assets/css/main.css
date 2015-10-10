@@ -27,3 +27,9 @@ button {
 #nothing {
     color: #55c2e6;
 }
+
+input[type="text"]
+{
+    font-family: 'Oswald', sans-serif;
+    border-radius: 2%
+}
