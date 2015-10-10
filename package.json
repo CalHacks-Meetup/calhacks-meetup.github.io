@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "ejs": "2.3.3",
-    "express": "4.13.3"
+    "express": "4.13.3",
+    "google-auth-library": "^0.9.6",
+    "googleapis": "^2.1.5"
   },
   "engines": {
     "node": "0.12.7"
