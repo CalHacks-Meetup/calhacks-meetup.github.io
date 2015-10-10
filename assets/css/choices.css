@@ -1,0 +1,60 @@
+h1 {
+    font-weight: 400;
+    color: #333333;
+/*    text-shadow: 1px 1px 1px black;*/
+    font-size: 64px;
+    letter-spacing: 5px;
+    margin-top: 0;
+}
+
+.header {
+  z-index: 1;
+  position: relative;
+}
+
+.skew .header-inner {
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  margin: 0;
+}
+
+section {
+  margin: 10px 0;
+ padding-top: 5px;
+  padding-bottom: 50px;
+  position: relative;
+    height: 80px        
+}
+
+.block {
+    background-color: #FFD580;
+    height: 14em;
+    width: 31em;
+    border-radius: 2%;
+    margin:auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.entry {
+    align-self: center;
+    border-radius: 2%;
+    margin-top: .5em;
+    background: white;
+    height: 3em;
+    width: 31em;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.column {
+    margin-right: 1em;
+}
