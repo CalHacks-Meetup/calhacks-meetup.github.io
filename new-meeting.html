@@ -2,22 +2,46 @@
 <html>
     <head>
       <title>Converge</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/nouislider.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/nouislider.pips.css">
       <link rel="stylesheet" type="text/css" href="assets/css/main.css">
         <link rel="stylesheet" type="text/css" href="assets/css/new_meeting.css">
         <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+        <script src="assets/js/nouislider.js"></script>
     </head>
     
     <body>
-        <header><a href="#">Convene</a></header>
+        <header><a href="dashboard.html">Convene</a></header>
         
         <div class= "container">
             <div class="skew">
                 <h1>Create New Meeting</h1>
             </div>
+<!--        meeting title-->
+            <input id="meeting-title" placeholder="Name your meeting">
+            
+<!--        range seekbar, code taken from http://refreshless.com/nouislider/ -->
+            <div id="slider-handles"></div>
+            <script>
+            var handlesSlider = document.getElementById('slider-handles');
+
+            noUiSlider.create(handlesSlider, {
+                start: [ 0, 1000 ],
+                range: {
+                    'min': [  0 ],
+                    'max': [ 1000 ]
+                }
+            });
+</script>
+            
+<!--          calendar grid here -->
+            </div>
         </div>
-    
-    
+        
     </body>
+    <footer>
+        <button>Create Event</button>
+    </footer>
     
     
 </html>

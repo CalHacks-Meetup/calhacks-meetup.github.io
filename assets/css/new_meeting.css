@@ -1,0 +1,37 @@
+h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 0px;
+}
+header {
+    background: #55c2e6;
+    text-transform: uppercase;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 300;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+body {
+    margin: 0px;
+}
+.container {
+    padding: 50px;
+    background-color: #FFD580;
+}
+#meeting-title {
+    background: #55c2e6;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    width: 240px;
+}
+#slider-handles {
+    margin: 50px auto;
+    width: 240px;
+
+
+/*light orange: FFD580 */
