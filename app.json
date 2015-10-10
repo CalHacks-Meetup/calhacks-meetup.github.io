@@ -1,0 +1,8 @@
+{
+  "name": "calhacks-meetup",
+  "description": "A barebones Node.js app using Express 4",
+  "repository": "https://github.com/CalHacks-Meetup/calhacks-meetup.github.io.git",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}
