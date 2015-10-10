@@ -8,36 +8,10 @@ h1 {
     margin-top: 0;
 }
 
-.container2 {
-    background-color: #FFB521;
-    height: 200px;
-    text-align: center;
-}
-
 .header {
   z-index: 1;
   position: relative;
 }
-
-/*
-.skew:before {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  overflow: visible;
-  width: 100%;
-  height: 250px;
-  background-color: #FFB521;
-  z-index: -1;
-  -webkit-transform: skewY(-2deg);
-  -moz-transform: skewY(-2deg);
-  -ms-transform: skewY(-2deg);
-  -o-transform: skewY(-2deg);
-  transform: skewY(-2deg);
-    -webkit-backface-visibility: hidden;
-}
-*/
 
 .skew .header-inner {
   max-width: 850px;
@@ -52,6 +26,28 @@ h1 {
 .container {
     padding-top: 60px;
     padding: 0px;
+}
+
+.header-container{
+    background: #FFB521;
+    position: relative;
+}
+
+.header-container:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -36px;
+  width: 100%;
+  height: 200px;
+  background: #FFB521;
+    z-index: -1;
+  -webkit-transform: skewY(2.5deg);
+  -moz-transform: skewY(2.5deg);
+  -ms-transform: skewY(2.5deg);
+  -o-transform: skewY(2.5deg);
+  transform: skewY(2.5deg);
+  -webkit-backface-visibility: hidden;
 }
 
 .footer-container {
@@ -78,8 +74,8 @@ position: relative;
 
 section {
   margin: 10px 0;
-  padding-bottom: 10px;
+ padding-top: 50px;
+  padding-bottom: 50px;
   position: relative;
-    height: 80px
-        
+    height: 80px        
 }
