@@ -15,8 +15,8 @@ app.all('*', function(req, res, next) {
 });
 
 // views is directory for all template files
-app.set('views', __dirname + '/views');
-app.set('view engine', 'ejs');
+//app.set('views', __dirname + '/views');
+//app.set('view engine', 'ejs');
 
 
 //rendering pages
