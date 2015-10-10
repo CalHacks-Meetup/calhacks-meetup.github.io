@@ -1,12 +1,12 @@
 body {
     font-family: 'Oswald', sans-serif;
     background-color: #55c2e6;
-    margin, padding: 0px;
+    margin: 0px;
     line-height: 2; 
     overflow: visible;
 }
 html {
-    margin, padding: 0px;
+    margin: 0px;
     overflow: visible;
 }
 .container {
@@ -14,10 +14,11 @@ html {
     border-style: none;
 }
 h1 {
+    height: 100%;
     font-weight: 400;
     text-transform: uppercase;
     color: white;
-    text-shadow: 1px 1px 1px orange;
+    text-shadow: 1px 1px 1px black;
     background-color: #ff9721;
     font-size: 64px;
     letter-spacing: 5px;
@@ -44,6 +45,17 @@ header {
     padding: 10px;
     float: right;
 }
+button {
+    display: block;
+    margin: 10px auto 50px;
+    color: white;
+    background: #55c2e6;
+    border: 3px solid white;
+    border-radius: 10%;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
 #nothing {
     color: #55c2e6;
 }
