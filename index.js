@@ -1,8 +1,8 @@
-// requiring all middleware that app is using
-// will require the API's we're using here.
+/* 	Requiring all middleware that app is using
+	will require the API's we're using here. */
 var express = require('express');
 
-// create an express app
+// Create an express app
 var app = express();
 
 app.set('port', (process.env.PORT || 5000));
@@ -21,7 +21,7 @@ app.all('*', function(req, res, next) {
 
 //rendering pages
 app.get('/', function(request, response) {
-  response.render('pages/index');
+  response.render('public/index');
 });
 
 //if using angularjs, SPA (sending index.html only), use following:
