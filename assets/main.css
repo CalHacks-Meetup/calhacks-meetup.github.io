@@ -11,6 +11,7 @@ html {
 }
 .container {
     text-align: center;
+    border-style: none;
 }
 h1 {
     font-weight: 400;
@@ -31,7 +32,9 @@ input {
     box-shadow: 0px 1px 0px black;
 }
 #google {
-    background: url("assets/google+_signin_buttons/web/2x/btn_google+_signin_dark_focus_web@2x.png");
+    padding: 0; 
+    border: none;
+    background: none;
 }
     
 
