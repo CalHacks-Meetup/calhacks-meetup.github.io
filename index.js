@@ -1,9 +1,8 @@
-//requiring all middleware that app is using
-//will require the API's we're using here.
-
+// requiring all middleware that app is using
+// will require the API's we're using here.
 var express = require('express');
 
-//create an express app
+// create an express app
 var app = express();
 
 app.set('port', (process.env.PORT || 5000));
