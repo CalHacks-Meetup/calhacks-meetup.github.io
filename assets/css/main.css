@@ -27,6 +27,18 @@ button {
 #nothing {
     color: #55c2e6;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
+header {
+    background: #55c2e6;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 300;
+/*    letter-spacing: 1px;*/
+    font-size: 20px;
+}
 
 input[type="text"]
 {
