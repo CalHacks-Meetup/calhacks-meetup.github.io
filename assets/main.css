@@ -35,6 +35,17 @@ input {
     padding: 0; 
     border: none;
     background: none;
+
+header {
+    color: white;
+    text-transform: uppercase;
+    border: 3px solid white;
+/*    border-radius: 80%;*/
+    padding: 10px;
+    float: right;
+}
+#nothing {
+    color: #55c2e6;
 }
     
 
