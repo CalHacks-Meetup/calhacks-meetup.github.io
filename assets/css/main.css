@@ -11,8 +11,10 @@ html {
 .container {
     text-align: center;
     border-style: none;
+    padding: 50px;
 }
 button {
+    display: block;
     display: block;
     margin: 10px auto 50px;
     color: white;
