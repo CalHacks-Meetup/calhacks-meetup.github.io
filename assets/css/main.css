@@ -1,11 +1,11 @@
 body {
     font-family: 'Oswald', sans-serif;
-    margin, padding: 0px;
+    margin: 0px;
     line-height: 2; 
     overflow: visible;
 }
 html {
-    margin, padding: 0px;
+    margin: 0px;
     overflow: visible;
 }
 .container {
