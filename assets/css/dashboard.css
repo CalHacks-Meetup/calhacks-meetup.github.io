@@ -9,13 +9,16 @@
 }
 
 .entry {
-    align-self: center;
     border-radius: 2%;
     margin-top: .5em;
     background: white;
     height: 3em;
-    width: 31em;
     text-align: center;
     padding-top: 1em;
+}
+h2 {
+    color: white;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
