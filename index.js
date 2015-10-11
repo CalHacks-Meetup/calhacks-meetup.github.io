@@ -32,9 +32,9 @@ app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
 
-var mongouri = 'mongodb://heroku_qj31q6f7:gm6hos3f52u9s5mqk461rehcv0@ds035664.mongolab.com:35664/heroku_qj31q6f7';
+var mongoURI = 'mongodb://heroku_qj31q6f7:gm6hos3f52u9s5mqk461rehcv0@ds035664.mongolab.com:35664/heroku_qj31q6f7';
 
-mongodb.MongoClient.connect(uri, function(err, db) {
+mongodb.MongoClient.connect(mongoURI, function(err, db) {
   
   if(err) throw err;
   
