@@ -43,7 +43,7 @@ a {
 body {
     margin: 0px;
 }
-#meeting-title {
+input {
     background: #FFD580;
     color: white;
     font-size: 18px;
@@ -51,6 +51,9 @@ body {
     width: 300px;
     border-radius: 5%;
     border: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
 }
 #slider-handles {
     margin: 30px auto 0px auto;
