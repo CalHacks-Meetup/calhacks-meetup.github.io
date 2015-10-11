@@ -1,14 +1,20 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-      <title>Converge</title>
+      <title>Convene</title>
         <link rel="stylesheet" type="text/css" href="assets/css/nouislider.css">
     <link rel="stylesheet" type="text/css" href="assets/css/nouislider.pips.css">
       <link rel="stylesheet" type="text/css" href="assets/css/main.css">
         <link rel="stylesheet" type="text/css" href="assets/css/new_meeting.css">
         <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
         <script src="assets/js/nouislider.js"></script>
+<!--        <script src="script.js"></script>-->
     </head>
+                    <script>
+                $('td.date-button').click(function(){
+    $(this).toggleClass("blue");
+    });
+                </script>
     
     <body>
         <header class="header"><a href="dashboard.html">Convene</a></header>
@@ -20,6 +26,7 @@
         </div>
         
         <div class="container" style="margin-top: 70px;">
+            <h2>Set possible meeting times</h2>
             <!--        meeting title-->
             <input id="meeting-title" placeholder="Name your meeting">
             <!--        range seekbar, code taken from http://refreshless.com/nouislider/ -->
@@ -57,9 +64,71 @@
             return (Math.floor(time/100)).toString() + ":" + (time%100*3/50).toString() + (0).toString();
         }
         </script>
+            <br>
         
 <!--          calendar grid here -->
-            <h2>Hello</h2>
+            <div class="container">
+            <h2>Set possible meeting dates</h2>
+                <h3>October</h3>
+            <table id="calendar" style="width: 330px; margin:auto">
+                <tr>
+                    <th>S</th>
+                    <th>M</th>
+                    <th>T</th>
+                    <th>W</th>
+                    <th>R</th>
+                    <th>F</th>
+                    <th>S</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><button class="date-button">1</button></td>
+                    <td><button class="date-button">2</button></td>
+                    <td><button class="date-button">3</button></td>
+                </tr>
+                <tr>
+                    <td><button class="date-button">4</button></td>
+                    <td><button class="date-button">5</button></td>
+                    <td><button class="date-button">6</button></td>
+                    <td><button class="date-button">7</button></td>
+                    <td><button class="date-button">8</button></td>
+                    <td><button class="date-button">9</button></td>
+                    <td><button class="date-button">10</button></td>
+                </tr>
+                <tr>
+                    <td><button class="date-button">11</button></td>
+                    <td><button class="date-button">12</button></td>
+                    <td><button class="date-button">13</button></td>
+                    <td><button class="date-button">14</button></td>
+                    <td><button class="date-button">15</button></td>
+                    <td><button class="date-button">16</button></td>
+                    <td><button class="date-button">17</button></td>
+                </tr>
+                <tr>
+                    <td><button class="date-button">18</button></td>
+                    <td><button class="date-button">19</button></td>
+                    <td><button class="date-button">20</button></td>
+                    <td><button class="date-button">21</button></td>
+                    <td><button class="date-button">22</button></td>
+                    <td><button class="date-button">23</button></td>
+                    <td><button class="date-button">24</button></td>
+                </tr>
+                <tr>
+                    <td><button class="date-button">25</button></td>
+                    <td><button class="date-button">26</button></td>
+                    <td><button class="date-button">27</button></td>
+                    <td><button class="date-button">28</button></td>
+                    <td><button class="date-button">29</button></td>
+                    <td><button class="date-button">30</button></td>
+                    <td><button class="date-button">31</button></td>
+                </tr>
+                
+            </table>
+                
+            </div>
             <br>
             <br>
         </div>

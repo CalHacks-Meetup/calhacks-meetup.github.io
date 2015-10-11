@@ -6,7 +6,11 @@ h1 {
     letter-spacing: 5px;
     margin-top: 0;
 }
-
+h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
 .header {
   z-index: 1;
   position: relative;
@@ -25,6 +29,13 @@ header {
     font-size: 20px;
     font-weight: 300;
 }
+td {
+    background-color: #FFD580;
+    border-radius: 10%;
+}
+#calendar {
+    font-weight: 300;
+}
 a {
     text-decoration: none;
     color: white;
@@ -37,20 +48,33 @@ body {
     color: white;
     font-size: 18px;
     padding: 10px;
-    width: 240px;
+    width: 300px;
     border-radius: 5%;
     border: none;
 }
 #slider-handles {
     margin: 30px auto 0px auto;
-    width: 240px;
+    width: 300px;
 }
 section {
-  margin: 10px 0;
- padding-top: 5px;
-  padding-bottom: 50px;
-  position: relative;
+    margin: 10px 0;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    position: relative;
     height: 80px        
 }
-
+.date-button {
+    border:0px;
+    margin:0px;
+    width: 50px;
+    height: 50px;
+    background-color: #FFD580;
+    font-weight: 300;
+}
+.date-button.blue {
+    background-color: #55c2e6;
+}
+.blue {
+    background-color: #55c2e6;
+}
 /*light orange: FFD580 */
