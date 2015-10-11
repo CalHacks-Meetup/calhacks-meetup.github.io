@@ -25,9 +25,6 @@ button {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
 }
-#nothing {
-    color: #55c2e6;
-}
 a {
     text-decoration: none;
     color: white;
@@ -37,12 +34,14 @@ header {
     padding: 10px;
     text-transform: uppercase;
     font-weight: 300;
-/*    letter-spacing: 1px;*/
     font-size: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 100;
 }
 
-input[type="text"]
-{
+input[type="text"] {
     font-family: 'Oswald', sans-serif;
     border-radius: 2%
 }
@@ -56,7 +55,7 @@ input[type="text"]
   content: '';
   position: absolute;
   left: 0;
-  top: -36px;
+  top: -6px;
   width: 100%;
   height: 200px;
   background: #FFB521;
@@ -89,4 +88,37 @@ position: relative;
   -o-transform: skewY(2.5deg);
   transform: skewY(2.5deg);
   -webkit-backface-visibility: hidden;
+}
+.block {
+    background-color: #FFD580;
+    height: 500px;
+    width: 40%;
+    border-radius: 2%;
+    margin:auto;
+    padding: 20px;
+    display: inline-block;
+}
+
+.entry {
+    border-radius: 2%;
+    margin-top: .5em;
+    background: white;
+    height: 3em;
+    text-align: center;
+    padding-top: 1em;
+}
+h2 {
+    color: white;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+section {
+ margin: 10px 0;
+    padding: 100px;
+ padding-top: 10px;
+ padding-bottom: 50px;
+ position: relative;
+ height: 80px;
+ font-size: 24px;
+    font-weight: 300;
 }

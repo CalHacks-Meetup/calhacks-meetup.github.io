@@ -1,22 +1,51 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <title>Convene</title>
+  <title>Convene | Your Meeting Choices</title>
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/choices.css">
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 </head>
-    
-<header class="header" id="header"><a href="dashboard.html">CONVENE</a></header>
+
+<style>
+    h1 {
+    font-weight: 400;
+    color: #333333;
+/*    text-shadow: 1px 1px 1px black;*/
+    font-size: 64px;
+    letter-spacing: 5px;
+    margin-top: 0;
+    }
+    .column {
+        margin-right: 1em;
+    }
+    .block {
+        background-color: #FFD580;
+        height: 14em;
+        width: 31em;
+        border-radius: 2%;
+        margin:auto;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+    h2 {
+        color: black;
+    }
+</style>
     
 <body>
+    <header><a href="dashboard.html">CONVENE</a></header>
     <div class="container">
         <div class="header-container">
           
         </div>
-        <h1 class="logo">Boozy Brunch</h1>
     </div>
-    
+    <div class="container" style="padding:50px">
+        <h1>Boozy Brunch</h1>
+        <h2>Your Top Appointment Choices</h2>
     <div class="block">
         <div class="entry">
             <span class="column">
@@ -61,12 +90,12 @@
             </span>
             </div>
     </div>
-    
-    
+    </div>
+
     <div class="container">
         <div class="footer-container">
           <section>
-              <button>confirm</button>
+              <button><a href="confirmation.html">confirm</a></button>
         </section>
         </div>
     </div>
