@@ -1,3 +1,3 @@
-$('.date-button').click(function(){
+$('td.date-button').click(function(){
     $(this).toggleClass("blue");
     });
