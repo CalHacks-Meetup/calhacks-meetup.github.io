@@ -21,21 +21,44 @@
             <input id="meeting-title" placeholder="Name your meeting">
             
 <!--        range seekbar, code taken from http://refreshless.com/nouislider/ -->
-            <div id="slider-handles"></div>
+            <div id="slider-handles" style="margin-bottom: 0px;"></div>
+            <div class="container" style="color: white; padding: 10px; font-size: 20px">
+                <span>Between</span>
+                <span id="slider-snap-value-lower" style="color: #55c2e6"></span>
+                <span>and</span>
+                <span id="slider-snap-value-upper" style="color:#55c2e6"></span>
+            </div>
+            
             <script>
             var handlesSlider = document.getElementById('slider-handles');
 
             noUiSlider.create(handlesSlider, {
-                start: [ 0, 1000 ],
+                start: [ 600, 1800 ],
+                connect: true,
+                step: 50,
                 range: {
                     'min': [  0 ],
-                    'max': [ 1000 ]
+                    'max': [ 2400 ]
                 }
             });
-</script>
-            
+                
+                var snapValues = [
+	document.getElementById('slider-snap-value-lower'),
+	document.getElementById('slider-snap-value-upper')
+];
+
+        handlesSlider.noUiSlider.on('update', function( values, handle ) {
+            snapValues[handle].innerHTML = formatTime(values[handle]);
+        });
+
+
+        function formatTime(time) {
+            return (Math.floor(time/100)).toString() + ":" + (time%100*3/50).toString() + (0).toString();
+        }
+        </script>
+        
 <!--          calendar grid here -->
-            </div>
+            <h2>Hello</h2>
         </div>
         
     </body>
